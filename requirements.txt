@@ -1,0 +1,10 @@
+numpy>=1.26
+scipy>=1.11
+cryptography>=47      # ML-KEM-768 is native from this release line; older versions fall back to liboqs-python
+argon2-cffi>=23.1
+matplotlib>=3.8
+psutil>=5.9
+pytest>=8
+# Optional:
+# numba>=0.59         # speeds up the Logistic generator, identical output
+# py-cpuinfo>=9       # reports AES-NI/AVX2 on Windows
